@@ -3,4 +3,10 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="insights">Insights</string>
+    <string name="home_button">Home Button</string>
+    <string name="anxious_mood_report">You\'ve been feeling anxious lately</string>
+    <string name="anxious_suggestion_1">Close your eyes and take a deep breath</string>
+    <string name="anxious_suggestion_2">Take a walk in nature</string>
+    <string name="anxious_suggestion_3">Try a 5-minute meditation</string>
 </resources>
