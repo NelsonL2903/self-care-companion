@@ -1,0 +1,19 @@
+{
+  "name": "self-care-companion",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "garbage": "^0.0.0",
+    "nelson": "^0.0.1",
+    "pee": "^0.0.11",
+    "poop": "^3.0.1",
+    "stinky": "^0.1.1"
+  }
+}

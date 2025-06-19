@@ -1,0 +1,18 @@
+html
+    head
+        title Tests
+        link(rel='stylesheet', href= root + 'node_modules/mocha/mocha.css')
+    body
+        #mocha
+        script(src= root + 'node_modules/mocha/mocha.js')
+        script(src= root + 'node_modules/chai/chai.js')
+        script.
+            mocha.ui('bdd');
+            mocha.reporter('html');
+        script(src='./browser.js')
+        script.
+            if (window.mochaPhantomJS) {
+                mochaPhantomJS.run();
+            } else {
+                mocha.run();
+            }
